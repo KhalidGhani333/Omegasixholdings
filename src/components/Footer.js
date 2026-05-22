@@ -1,7 +1,7 @@
 import logoWhite from '../assets/logo-white.png';
 import './Footer.css';
 
-export default function Footer() {
+export default function Footer({ onNavigate }) {
   const scrollTo = (id) => {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: 'smooth' });
@@ -43,6 +43,22 @@ export default function Footer() {
           >
             admin@omegasixholdings.com
           </a>
+        </div>
+
+        {/* Legal */}
+        <div className="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li>
+              <button onClick={() => onNavigate('privacy')}>Privacy Policy</button>
+            </li>
+            <li>
+              <button onClick={() => onNavigate('cookies')}>Cookie Policy</button>
+            </li>
+            <li>
+              <button onClick={() => onNavigate('terms')}>Terms &amp; Conditions</button>
+            </li>
+          </ul>
         </div>
 
       </div>
