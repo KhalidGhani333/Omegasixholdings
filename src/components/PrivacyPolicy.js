@@ -24,7 +24,7 @@ export default function PrivacyPolicy({ onBack }) {
 
         <h2>1. Introduction</h2>
         <p>
-          Welcome to Omegasix Holdings ("we", "our", "us"). We are committed to protecting
+          Welcome to Omegasix Holdings. We are committed to protecting
           and respecting your privacy. This Privacy Policy explains how we collect, use,
           store, and protect your personal data when you visit our website.
         </p>
